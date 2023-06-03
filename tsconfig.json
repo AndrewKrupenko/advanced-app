@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    // do not use 'any' as a default option
+    "noImplicitAny": true,
+    "module": "es6",
+    // compilation specification (support for old browsers)
+    "target": "es5",
+    "jsx": "react",
+    "allowJs": true,
+    "moduleResolution": "node",
+    // to use usual imports
+    "esModuleInterop" : true,
+    "allowSyntheticDefaultImports" : true,
+  },
+  "ts-node": {
+    "compilerOptions": {
+      "module": "CommonJS"
+    }
+  }
+}
