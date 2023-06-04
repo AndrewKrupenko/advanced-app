@@ -1,5 +1,7 @@
 {
   "compilerOptions": {
+    // fore absolute imports
+    "baseUrl": ".",
     "outDir": "./dist/",
     // do not use 'any' as a default option
     "noImplicitAny": true,
