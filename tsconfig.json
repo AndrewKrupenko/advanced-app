@@ -8,7 +8,7 @@
     "module": "es6",
     // compilation specification (support for old browsers)
     "target": "es5",
-    "jsx": "react",
+    "jsx": "react-jsx",
     "allowJs": true,
     "moduleResolution": "node",
     // to use usual imports
