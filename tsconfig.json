@@ -5,8 +5,7 @@
     "outDir": "./dist/",
     // do not use 'any' as a default option
     "noImplicitAny": true,
-    "module": "es6",
-    // compilation specification (support for old browsers)
+    "module": "ESNext",
     "target": "es5",
     "jsx": "react-jsx",
     "allowJs": true,
