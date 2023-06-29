@@ -2,6 +2,9 @@
   "compilerOptions": {
     // fore absolute imports
     "baseUrl": ".",
+    "paths": {
+      "*": ["./src/*"]
+    },
     "outDir": "./dist/",
     // do not use 'any' as a default option
     "noImplicitAny": true,
