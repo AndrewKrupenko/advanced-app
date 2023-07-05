@@ -6,6 +6,7 @@ import { BuildOptions } from "./types/config";
 
 export function buildPlugins({
   paths,
+  isDev,
 }: BuildOptions): webpack.WebpackPluginInstance[] {
   return [
     // adding index.html to the bundle build
@@ -18,6 +19,9 @@ export function buildPlugins({
       // to exclude css styles from the main.[hash].js file and create separate css file
       filename: "css/[name].[contenthash:8].css",
       chunkFilename: "css/[name].[contenthash:8].css",
+    }),
+    new webpack.DefinePlugin({
+      __IS_DEV__: JSON.stringify(isDev), // global variable
     }),
   ];
 }
