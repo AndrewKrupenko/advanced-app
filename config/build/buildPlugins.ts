@@ -28,10 +28,11 @@ export function buildPlugins({
 
   if (isDev) {
     plugins.push(new webpack.HotModuleReplacementPlugin());
+    // prettier-ignore
     plugins.push(
       new BundleAnalyzerPlugin({
         openAnalyzer: false,
-      })
+      }),
     );
   }
 

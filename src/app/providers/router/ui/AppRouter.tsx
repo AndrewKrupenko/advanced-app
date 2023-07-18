@@ -10,11 +10,12 @@ const AppRouter = () => (
       <Route
         key={path}
         path={path}
-        element={
+        // prettier-ignore
+        element={(
           <Suspense fallback={<PageLoader />}>
             <div className="page-wrapper">{element}</div>
           </Suspense>
-        }
+        )}
       />
     ))}
   </Routes>
