@@ -9,8 +9,10 @@
     // do not use 'any' as a default option
     "noImplicitAny": true,
     "module": "ESNext",
+    // to support almost all browsers
     "target": "es5",
     "jsx": "react-jsx",
+    // compile not only TS files, but also JS
     "allowJs": true,
     "moduleResolution": "node",
     // to use usual imports
@@ -23,6 +25,8 @@
     }
   },
   "include": [
-    "./config/jest/setupTests.ts"
+    "./config/jest/setupTests.ts",
+    "./src/**/*.ts",
+    "./src/**/*.tsx",
   ]
 }
