@@ -2,8 +2,16 @@
   "About page": "About page",
   "An unexpected error occurred": "An unexpected error occurred",
   "Language": "Language",
+  "Log in": "Log in",
+  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
+    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
+      "": ""
+    }
+  },
   "Main page": "Main page",
   "Page not found": "Page not found",
   "Refresh page": "Refresh page",
-  "Toggle": "Toggle"
+  "Toggle": "Toggle",
+  "decrement": "decrement",
+  "increment": "increment"
 }

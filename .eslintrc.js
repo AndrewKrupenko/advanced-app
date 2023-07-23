@@ -45,6 +45,7 @@ module.exports = {
     'jsx-a11y/click-events-have-key-events': 'off',
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks (eslint-plugin-react-hooks)
     'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
+    'no-param-reassign': 'off',
   },
   globals: {
     __IS_DEV__: true,
