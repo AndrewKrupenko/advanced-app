@@ -6,6 +6,7 @@ import { AppRouter } from 'app/providers/router';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
 
+// eslint-disable-next-line
 const App = () => {
   const { theme } = useTheme();
 
