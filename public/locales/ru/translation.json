@@ -9,5 +9,7 @@
   "Short Language": "Ru",
   "Log in": "Войти",
   "decrement": "декремент",
-  "increment": "инкремент"
+  "increment": "инкремент",
+  "Enter password": "Введите пароль",
+  "Enter username": "Введите имя пользователя"
 }
