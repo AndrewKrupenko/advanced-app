@@ -1,6 +1,8 @@
 {
   "About page": "About page",
   "An unexpected error occurred": "An unexpected error occurred",
+  "Enter password": "Введите пароль",
+  "Enter username": "Введите имя пользователя",
   "Language": "Language",
   "Log in": "Log in",
   "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
@@ -13,5 +15,8 @@
   "Refresh page": "Refresh page",
   "Toggle": "Toggle",
   "decrement": "decrement",
-  "increment": "increment"
+  "increment": "increment",
+  "Введите username": "Введите username",
+  "Введите пароль": "Введите пароль",
+  "Войти": "Войти"
 }
