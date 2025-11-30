@@ -27,7 +27,7 @@ module.exports = {
     'no-unused-vars': 'warn',
     'react/require-default-props': 'off',
     'react/react-in-jsx-scope': 'off',
-    'react/jsx-props-no-spreading': 'warn',
+    'react/jsx-props-no-spreading': 'off',
     'react/function-component-definition': 'off',
     'no-shadow': 'off',
     'import/extensions': 'off',
@@ -46,6 +46,9 @@ module.exports = {
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks (eslint-plugin-react-hooks)
     'react-hooks/exhaustive-deps': 'error', // Checks effect dependencies
     'no-param-reassign': 'off',
+    'comma-dangle': 'off',
+    'object-curly-newline': 'off',
+    'implicit-arrow-linebreak': 'off',
   },
   globals: {
     __IS_DEV__: true,
@@ -55,6 +58,7 @@ module.exports = {
       files: ['**/src/**/*.{test,stories}.{ts,tsx}'],
       rules: {
         'i18next/no-literal-string': 'off', // there is no need to test translations
+        '@typescript-eslint/no-unused-vars': ['warn'], // turn on the TS-version
         'max-len': 'off',
       },
     },

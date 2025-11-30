@@ -9,7 +9,6 @@ import { StoreProvider } from 'app/providers/StoreProvider';
 import App from './app/App';
 import 'app/styles/index.scss';
 
-/* eslint-disable */
 render(
   <StoreProvider>
     <BrowserRouter>

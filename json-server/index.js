@@ -42,7 +42,7 @@ server.post('/login', (req, res) => {
 });
 
 // check if the user is authorized
-// eslint-disable-next-line
+// eslint-disable-next-line consistent-return
 server.use((req, res, next) => {
   if (!req.headers.authorization) {
     return res.status(403).json({ message: 'AUTH ERROR' });

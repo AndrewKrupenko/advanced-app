@@ -8,7 +8,6 @@ import React, {
 
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Portal } from 'shared/ui/Portal/Portal';
-import { useTheme } from 'app/providers/ThemeProvider';
 import cls from './Modal.module.scss';
 
 interface ModalProps {
@@ -22,13 +21,12 @@ interface ModalProps {
 const ANIMATION_DELAY = 300;
 
 export const Modal = (props: ModalProps) => {
-  /* eslint-disable */
   const { className, children, isOpen, onClose, lazy } = props;
 
   const [isClosing, setIsClosing] = useState(false);
   const [isMounted, setIsMounted] = useState(false);
+
   const timerRef = useRef<ReturnType<typeof setTimeout>>();
-  const { theme } = useTheme();
 
   useEffect(() => {
     if (isOpen) {
@@ -75,15 +73,14 @@ export const Modal = (props: ModalProps) => {
     [cls.isClosing]: isClosing,
   };
 
+  // for login form Input autofocus functionality
   if (lazy && !isMounted) {
     return null;
   }
 
   return (
     <Portal>
-      <div
-        className={classNames(cls.Modal, mods, [className, theme, 'app_modal'])}
-      >
+      <div className={classNames(cls.Modal, mods, [className])}>
         <div className={cls.overlay} onClick={closeHandler}>
           <div className={cls.content} onClick={onContentClick}>
             {children}
