@@ -2,7 +2,6 @@ import { memo, useCallback } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 
-import cls from './LoginForm.module.scss';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { Input } from 'shared/ui/Input/Input';
@@ -10,6 +9,8 @@ import { loginActions } from 'features/AuthByUsername/model/slice/loginSlice';
 import { getLoginState } from 'features/AuthByUsername/model/selectors/getLoginState/getLoginState';
 import { loginByUsername } from 'features/AuthByUsername/model/services/loginByUsername/loginByUsername';
 import { Text, TextTheme } from 'shared/ui/Text/Text';
+
+import cls from './LoginForm.module.scss';
 
 interface LoginFormProps {
   className?: string;

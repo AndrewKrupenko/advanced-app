@@ -5,8 +5,9 @@ import { useDispatch, useSelector } from 'react-redux';
 import { classNames } from 'shared/lib/classNames/classNames';
 import { Button, ButtonTheme } from 'shared/ui/Button/Button';
 import { LoginModal } from 'features/AuthByUsername';
-import cls from './Navbar.module.scss';
 import { getUserAuthData, userActions } from 'entities/User';
+
+import cls from './Navbar.module.scss';
 
 interface NavbarProps {
   className?: string;
