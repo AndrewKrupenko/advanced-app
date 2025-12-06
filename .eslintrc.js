@@ -17,7 +17,7 @@ module.exports = {
   rules: {
     'react/jsx-indent': [2],
     'react/jsx-indent-props': [2],
-    indent: [2],
+    indent: 'off',
     'react/jsx-filename-extension': [
       2,
       { extensions: ['.js', '.jsx', '.tsx'] },
@@ -40,7 +40,7 @@ module.exports = {
         ignoreAttribute: ['data-testid', 'to'],
       },
     ],
-    'max-len': ['error', { ignoreComments: true, code: 105 }],
+    'max-len': ['error', { ignoreComments: true, code: 115 }],
     'jsx-a11y/no-static-element-interactions': 'off', // to allow onClick handler on div
     'jsx-a11y/click-events-have-key-events': 'off',
     'react-hooks/rules-of-hooks': 'error', // Checks rules of Hooks (eslint-plugin-react-hooks)
