@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react';
+import React, { memo, useCallback, useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { useDispatch, useSelector } from 'react-redux';
 
@@ -14,7 +14,7 @@ interface NavbarProps {
 }
 
 // doesn't need async chunk that's why this isn't default export
-export const Navbar = ({ className }: NavbarProps) => {
+export const Navbar = memo(({ className }: NavbarProps) => {
   const { t } = useTranslation();
   const dispatch = useDispatch();
   const [isAuthModal, setIsAuthModal] = useState(false);
@@ -62,4 +62,4 @@ export const Navbar = ({ className }: NavbarProps) => {
       )}
     </div>
   );
-};
+});
