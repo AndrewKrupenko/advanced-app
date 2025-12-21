@@ -2,6 +2,7 @@
   "About page": "About page",
   "An unexpected error occurred": "An unexpected error occurred",
   "Authorization form": "Authorization form",
+  "Edit": "Edit",
   "Enter password": "Enter password",
   "Enter username": "Enter username",
   "Language": "Language",
@@ -19,6 +20,8 @@
   "Refresh page": "Refresh page",
   "Toggle": "Toggle",
   "You entered an incorrect username or password": "You entered an incorrect username or password",
+  "Your last name": "Your last name",
+  "Your name": "Your name",
   "decrement": "decrement",
   "increment": "increment"
 }

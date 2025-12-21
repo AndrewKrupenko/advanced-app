@@ -14,6 +14,7 @@
     "jsx": "react-jsx",
     // compile not only TS files, but also JS
     "allowJs": true,
+    "strict": true,
     "moduleResolution": "node",
     // to use usual imports
     "esModuleInterop": true,

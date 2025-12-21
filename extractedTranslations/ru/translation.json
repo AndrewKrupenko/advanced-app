@@ -2,6 +2,7 @@
   "About page": "О нас",
   "An unexpected error occurred": "Возникла ошибка",
   "Authorization form": "Форма авторизации",
+  "Edit": "Edit",
   "Enter password": "Введите пароль",
   "Enter username": "Введите имя пользователя",
   "Language": "Язык",
@@ -19,6 +20,8 @@
   "Refresh page": "Обновить страницу",
   "Toggle": "Переключить",
   "You entered an incorrect username or password": "Вы ввели некорректный логин или пароль",
+  "Your last name": "Your last name",
+  "Your name": "Your name",
   "decrement": "декримент",
   "increment": "инкримент"
 }
