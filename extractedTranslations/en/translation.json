@@ -8,6 +8,9 @@
   "Edit": "Edit",
   "Enter password": "Enter password",
   "Enter username": "Enter username",
+  "First name and last name are required": "First name and last name are required",
+  "Incorrect Age": "Incorrect Age",
+  "Incorrect Country": "Incorrect Country",
   "Language": "Language",
   "Link to the avatar": "Link to the avatar",
   "Log in": "Log in",
@@ -19,6 +22,7 @@
   },
   "Main page": "Main page",
   "Name of the user": "Name of the user",
+  "No Data": "No Data",
   "PROFILE PAGE": "",
   "Page not found": "Page not found",
   "Profile": "Profile",
@@ -26,6 +30,7 @@
   "Save": "Save",
   "Select Currency": "Select Currency",
   "Select your country": "Select your country",
+  "Server Error": "Server Error",
   "Toggle": "Toggle",
   "Try to reload the page": "Try to reload the page",
   "User name": "User name",
@@ -34,5 +39,6 @@
   "Your last name": "Your last name",
   "Your name": "Your name",
   "decrement": "decrement",
-  "increment": "increment"
+  "increment": "increment",
+  "throw error": "throw error"
 }

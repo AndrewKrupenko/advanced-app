@@ -8,6 +8,9 @@
   "Edit": "Edit",
   "Enter password": "Введите пароль",
   "Enter username": "Введите имя пользователя",
+  "First name and last name are required": "First name and last name are required",
+  "Incorrect Age": "Incorrect Age",
+  "Incorrect Country": "Incorrect Country",
   "Language": "Язык",
   "Link to the avatar": "Ссылка на аватар",
   "Log in": "Вход",
@@ -19,6 +22,7 @@
   },
   "Main page": "Главная страница",
   "Name of the user": "Имя пользователя",
+  "No Data": "No Data",
   "PROFILE PAGE": "PROFILE PAGE",
   "Page not found": "Страница не найдена",
   "Profile": "Profile",
@@ -26,6 +30,7 @@
   "Save": "Сохранить",
   "Select Currency": "Выберите валюту",
   "Select your country": "Выберите страну",
+  "Server Error": "Server Error",
   "Toggle": "Переключить",
   "Try to reload the page": "Попробуйте перезагрузить страницу",
   "User name": "Имя пользователя",
@@ -34,5 +39,6 @@
   "Your last name": "Your last name",
   "Your name": "Your name",
   "decrement": "декримент",
-  "increment": "инкримент"
+  "increment": "инкримент",
+  "throw error": "throw error"
 }

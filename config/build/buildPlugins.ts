@@ -9,6 +9,7 @@ export function buildPlugins({
   paths,
   isDev,
   apiUrl,
+  project,
 }: BuildOptions): webpack.WebpackPluginInstance[] {
   const plugins = [
     // adding index.html to the bundle build
@@ -25,6 +26,7 @@ export function buildPlugins({
     new webpack.DefinePlugin({
       __IS_DEV__: JSON.stringify(isDev), // global variable
       __API__: JSON.stringify(apiUrl),
+      __PROJECT__: JSON.stringify(project),
     }),
   ];
 

@@ -34,6 +34,7 @@ export default ({ config }: { config: webpack.Configuration }) => {
     new DefinePlugin({
       __IS_DEV__: JSON.stringify(true), // to have access to this variable in the LoginForm story
       __API__: JSON.stringify(''),
+      __PROJECT__: JSON.stringify('storybook'),
     })
   );
 

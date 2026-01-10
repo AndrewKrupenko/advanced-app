@@ -3,7 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 
 import { routeConfig } from 'shared/config/routeConfig/routeConfig';
-import { PageLoader } from 'shared/ui/PageLoader';
+import { PageLoader } from 'shared/ui/PageLoader/PageLoader';
 import { getUserAuthData } from 'entities/User';
 
 const AppRouter = () => {
