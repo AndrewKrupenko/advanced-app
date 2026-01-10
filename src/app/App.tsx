@@ -1,19 +1,20 @@
 import React, { Suspense, useEffect } from 'react';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 import { classNames } from 'shared/lib/classNames/classNames';
+import { getUserInited, userActions } from 'entities/User';
 import { AppRouter } from 'app/providers/router';
 import { Navbar } from 'widgets/Navbar';
 import { Sidebar } from 'widgets/Sidebar';
-import { userActions } from 'entities/User';
 
 const App = () => {
   const dispatch = useDispatch();
+  const inited = useSelector(getUserInited);
 
   useEffect(() => {
     dispatch(userActions.initAuthData());
-    // eslint-disable-next-line
-  }, []);
+    // important dependency: must run on every selected page!
+  }, [dispatch]);
 
   return (
     <div className={classNames('app', {}, [])}>
@@ -21,7 +22,7 @@ const App = () => {
         <Navbar />
         <div className="content-page">
           <Sidebar />
-          <AppRouter />
+          {inited && <AppRouter />}
         </div>
       </Suspense>
     </div>
