@@ -7,7 +7,7 @@ import { BuildOptions } from './types/config';
 import { buildDevServer } from './buildDevServer';
 
 export function buildWebpackConfig(
-  options: BuildOptions,
+  options: BuildOptions
 ): webpack.Configuration {
   const { paths, mode, isDev } = options;
   return {
@@ -18,6 +18,7 @@ export function buildWebpackConfig(
       filename: '[name].[contenthash].js',
       path: paths.build,
       clean: true, // to remove the old bundle
+      publicPath: '/',
     },
     plugins: buildPlugins(options),
     module: {
