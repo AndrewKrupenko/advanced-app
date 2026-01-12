@@ -1,7 +1,9 @@
 {
   "About page": "О нас",
+  "An error occurred during article loading": "Произошла ошибка при загрузке статьи",
   "An error occurred during profile loading": "Возникла ошибка при загрузке профиля",
   "An unexpected error occurred": "Возникла ошибка",
+  "Article was not found": "Статья не найдена",
   "Authorization form": "Форма авторизации",
   "Cancel": "Отменить",
   "City": "Город",
