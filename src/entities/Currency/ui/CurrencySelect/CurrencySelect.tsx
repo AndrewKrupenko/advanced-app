@@ -19,26 +19,24 @@ const options = [
   { value: Currency.PLN, content: Currency.PLN },
 ];
 
-export const CurrencySelect = memo(
-  ({ className, value, onChange, readonly }: CurrencySelectProps) => {
-    const { t } = useTranslation();
+export const CurrencySelect = memo(({ className, value, onChange, readonly }: CurrencySelectProps) => {
+  const { t } = useTranslation();
 
-    const onChangeHandler = useCallback(
-      (value: string) => {
-        onChange?.(value as Currency);
-      },
-      [onChange]
-    );
+  const onChangeHandler = useCallback(
+    (value: string) => {
+      onChange?.(value as Currency);
+    },
+    [onChange]
+  );
 
-    return (
-      <Select
-        className={classNames('', {}, [className])}
-        label={t('Select Currency')}
-        options={options}
-        value={value}
-        onChange={onChangeHandler}
-        readonly={readonly}
-      />
-    );
-  }
-);
+  return (
+    <Select
+      className={classNames('', {}, [className])}
+      label={t('Select Currency')}
+      options={options}
+      value={value}
+      onChange={onChangeHandler}
+      readonly={readonly}
+    />
+  );
+});

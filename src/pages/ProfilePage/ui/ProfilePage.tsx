@@ -3,10 +3,7 @@ import { useSelector } from 'react-redux';
 import { useTranslation } from 'react-i18next';
 
 import { classNames } from 'shared/lib/classNames/classNames';
-import {
-  DynamicModuleLoader,
-  ReducersList,
-} from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
+import { DynamicModuleLoader, ReducersList } from 'shared/lib/components/DynamicModuleLoader/DynamicModuleLoader';
 import {
   fetchProfileData,
   getProfileError,
@@ -46,9 +43,7 @@ const ProfilePage = ({ className }: ProfilePageProps) => {
     [ValidateProfileError.SERVER_ERROR]: t('Server Error'),
     [ValidateProfileError.INCORRECT_COUNTRY]: t('Incorrect Country'),
     [ValidateProfileError.NO_DATA]: t('No Data'),
-    [ValidateProfileError.INCORRECT_USER_DATA]: t(
-      'First name and last name are required'
-    ),
+    [ValidateProfileError.INCORRECT_USER_DATA]: t('First name and last name are required'),
     [ValidateProfileError.INCORRECT_AGE]: t('Incorrect Age'),
   };
 
@@ -119,13 +114,7 @@ const ProfilePage = ({ className }: ProfilePageProps) => {
       <div className={classNames('', {}, [className])}>
         <ProfilePageHeader />
         {validateErrors?.length &&
-          validateErrors.map((err) => (
-            <Text
-              key={err}
-              theme={TextTheme.ERROR}
-              text={validateErrorTranslates[err]}
-            />
-          ))}
+          validateErrors.map((err) => <Text key={err} theme={TextTheme.ERROR} text={validateErrorTranslates[err]} />)}
         <ProfileCard
           data={formData}
           isLoading={isLoading}

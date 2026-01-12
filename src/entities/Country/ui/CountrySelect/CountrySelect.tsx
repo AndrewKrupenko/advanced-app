@@ -19,26 +19,24 @@ const options = [
   { value: Country.Germany, content: Country.Germany },
 ];
 
-export const CountrySelect = memo(
-  ({ className, value, onChange, readonly }: CountrySelectProps) => {
-    const { t } = useTranslation();
+export const CountrySelect = memo(({ className, value, onChange, readonly }: CountrySelectProps) => {
+  const { t } = useTranslation();
 
-    const onChangeHandler = useCallback(
-      (value: string) => {
-        onChange?.(value as Country);
-      },
-      [onChange]
-    );
+  const onChangeHandler = useCallback(
+    (value: string) => {
+      onChange?.(value as Country);
+    },
+    [onChange]
+  );
 
-    return (
-      <Select
-        className={classNames('', {}, [className])}
-        label={t('Select your country')}
-        options={options}
-        value={value}
-        onChange={onChangeHandler}
-        readonly={readonly}
-      />
-    );
-  }
-);
+  return (
+    <Select
+      className={classNames('', {}, [className])}
+      label={t('Select your country')}
+      options={options}
+      value={value}
+      onChange={onChangeHandler}
+      readonly={readonly}
+    />
+  );
+});

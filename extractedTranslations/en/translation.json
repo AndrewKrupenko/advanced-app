@@ -7,6 +7,7 @@
   "Authorization form": "Authorization form",
   "Cancel": "Cancel",
   "City": "City",
+  "Comments": "Comments",
   "Edit": "Edit",
   "Enter password": "Enter password",
   "Enter username": "Enter username",
@@ -33,6 +34,8 @@
   "Select Currency": "Select Currency",
   "Select your country": "Select your country",
   "Server Error": "Server Error",
+  "There are no comments": "",
+  "There are no comments!": "",
   "Toggle": "Toggle",
   "Try to reload the page": "Try to reload the page",
   "User name": "User name",
@@ -42,5 +45,6 @@
   "Your name": "Your name",
   "decrement": "decrement",
   "increment": "increment",
-  "throw error": "throw error"
+  "throw error": "throw error",
+  "Комментарии отсутствуют": ""
 }
