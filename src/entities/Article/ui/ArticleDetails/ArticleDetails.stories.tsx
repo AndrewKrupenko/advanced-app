@@ -3,7 +3,10 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 import { StoreDecorator } from 'shared/config/storybook/StoreDecorator/StoreDecorator';
 import { Article } from 'entities/Article';
-import { ArticleBlockType, ArticleType } from 'entities/Article/model/types/article';
+import {
+  ArticleBlockType,
+  ArticleType,
+} from 'entities/Article/model/types/article';
 import { ArticleDetails } from './ArticleDetails';
 
 export default {
@@ -14,7 +17,9 @@ export default {
   },
 } as ComponentMeta<typeof ArticleDetails>;
 
-const Template: ComponentStory<typeof ArticleDetails> = (args) => <ArticleDetails {...args} />;
+const Template: ComponentStory<typeof ArticleDetails> = (args) => (
+  <ArticleDetails {...args} />
+);
 
 const article: Article = {
   id: '1',
@@ -24,6 +29,10 @@ const article: Article = {
   views: 1022,
   createdAt: '26.02.2025',
   type: [ArticleType.IT],
+  user: {
+    id: '1',
+    username: 'admin',
+  },
   blocks: [
     {
       id: '1',
