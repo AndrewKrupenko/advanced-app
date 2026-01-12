@@ -80,6 +80,75 @@
           ]
         }
       ]
+    },
+    {
+      "id": "2",
+      "title": "Javascript news 2",
+      "subtitle": "What's new in JS for 2026?",
+      "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
+      "views": 1022,
+      "createdAt": "01.01.2026",
+      "type": ["IT"],
+      "blocks": [
+        {
+          "id": "1",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "The program traditionally called “Hello, world!” is very simple. It displays the phrase “Hello, world!” or something similar using a certain language.",
+            "JavaScript is a language that can be used to run programs in different environments. In our case, we are talking about browsers and the Node.js server platform. If you haven't written a single line of JS code yet and are reading this text in a browser on a desktop computer, it means that you are literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in a browser. For example, when it comes to the usual use of JavaScript programs, they are loaded into the browser to ensure that web pages work. As a rule, the code is formatted as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page code. All this is done using the <script> tag. When the browser detects such code, it executes it. Details about the script tag can be found on w3school.com. In particular, let's look at an example demonstrating how to work with a web page using JavaScript, provided on this resource. This example can be run using the tools provided on this resource (look for the Try it Yourself button), but we will do things a little differently. Specifically, we will create a new file in any text editor (for example, VS Code or Notepad++) and name it hello.html, then add the following code to it:"
+          ]
+        },
+        {
+          "id": "4",
+          "type": "CODE",
+          "code": "<!DOCTYPE html>\n<html>\n  <body>\n    <p id=\"hello\"></p>\n\n    <script>\n      document.getElementById(\"hello\").innerHTML = \"Hello, world!\";\n    </script>\n  </body>\n</html>;"
+        },
+        {
+          "id": "5",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "The program traditionally called “Hello, world!” is very simple. It displays the phrase “Hello, world!” or something similar using a certain language.",
+            "There are other ways to run JS code in a browser. For example, when it comes to the usual use of JavaScript programs, they are loaded into the browser to ensure that web pages work. As a rule, the code is formatted as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page code. All this is done using the <script> tag. When the browser detects such code, it executes it. Details about the script tag can be found on w3school.com. In particular, let's look at an example demonstrating how to work with a web page using JavaScript, provided on this resource. This example can be run using the tools provided on this resource (look for the Try it Yourself button), but we will do things a little differently. Specifically, we will create a new file in any text editor (for example, VS Code or Notepad++) and name it hello.html, then add the following code to it:"
+          ]
+        },
+        {
+          "id": "2",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Illustration 1 - screenshot of the website"
+        },
+        {
+          "id": "3",
+          "type": "CODE",
+          "code": "const path = require('path');\n\nconst server = jsonServer.create();\n\nconst router = jsonServer.router(path.resolve(__dirname, 'db.json'));\n\nserver.use(jsonServer.defaults({}));\nserver.use(jsonServer.bodyParser);"
+        },
+        {
+          "id": "7",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "JavaScript is a language that can be used to run programs in different environments. In our case, we are talking about browsers and the Node.js server platform. If you haven't written a single line of JS code yet and are reading this text in a browser on a desktop computer, it means that you are literally seconds away from your first JavaScript program.",
+            "There are other ways to run JS code in a browser. For example, when it comes to the usual use of JavaScript programs, they are loaded into the browser to ensure that web pages work. As a rule, the code is formatted as separate files with the .js extension, which are linked to web pages, but the program code can also be included directly in the page code. All this is done using the <script> tag. When the browser detects such code, it executes it. Details about the script tag can be found on w3school.com. In particular, let's look at an example demonstrating how to work with a web page using JavaScript, provided on this resource. This example can be run using the tools provided on this resource (look for the Try it Yourself button), but we will do things a little differently. Specifically, we will create a new file in any text editor (for example, VS Code or Notepad++) and name it hello.html, then add the following code to it:"
+          ]
+        },
+        {
+          "id": "8",
+          "type": "IMAGE",
+          "src": "https://hsto.org/r/w1560/getpro/habr/post_images/d56/a02/ffc/d56a02ffc62949b42904ca00c63d8cc1.png",
+          "title": "Illustration 1 - screenshot of the website"
+        },
+        {
+          "id": "9",
+          "type": "TEXT",
+          "title": "Title of this block",
+          "paragraphs": [
+            "JavaScript is a language that can be used to run programs in different environments. In our case, we are talking about browsers and the Node.js server platform. If you haven't written a single line of JS code yet and are reading this text in a browser on a desktop computer, it means that you are literally seconds away from your first JavaScript program."
+          ]
+        }
+      ]
     }
   ],
   "comments": [
@@ -100,6 +169,30 @@
       "text": "some comment 3",
       "articleId": "1",
       "userId": "1"
+    },
+    {
+      "articleId": "1",
+      "userId": 1,
+      "text": "hello there",
+      "id": "wJJgo2R"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "hey",
+      "id": "OUVvgr6"
+    },
+    {
+      "articleId": "1",
+      "userId": "2",
+      "text": "what's up?",
+      "id": "Pp8U9PG"
+    },
+    {
+      "articleId": "2",
+      "userId": "2",
+      "text": "hey",
+      "id": "5N3UOnb"
     }
   ],
   "users": [
@@ -112,20 +205,34 @@
     },
     {
       "id": "2",
-      "username": "admin",
+      "username": "user",
       "password": "123",
       "role": "USER",
-      "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
+      "avatar": "https://teknotower.com/wp-content/uploads/2020/11/js.png"
     }
   ],
-  "profile": {
-    "first": "Andrew",
-    "lastname": "Awesome",
-    "age": 32,
-    "currency": "USD",
-    "country": "Poland",
-    "city": "Wroclaw",
-    "username": "admin",
-    "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
-  }
+  "profile": [
+    {
+      "id": "1",
+      "first": "Andrew",
+      "lastname": "Awesome",
+      "age": 32,
+      "currency": "USD",
+      "country": "Poland",
+      "city": "Wroclaw",
+      "username": "admin",
+      "avatar": "https://pic.rutubelist.ru/user/3b/27/3b2758ad5492a76b578f7ee072e4e894.jpg"
+    },
+    {
+      "id": "2",
+      "first": "John",
+      "lastname": "Li",
+      "age": 21,
+      "currency": "USD",
+      "country": "USA",
+      "city": "LA",
+      "username": "user",
+      "avatar": "https://teknotower.com/wp-content/uploads/2020/11/js.png"
+    }
+  ]
 }
