@@ -6,5 +6,5 @@ import { CounterSchema } from '../../types/counterSchema';
 // prettier-ignore
 export const getCounterValue = createSelector(
   getCounter,
-  (counter: CounterSchema) => counter.value,
+  (counter: CounterSchema) => counter.value
 );

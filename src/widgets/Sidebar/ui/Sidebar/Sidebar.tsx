@@ -25,7 +25,7 @@ export const Sidebar = memo(({ className }: SidebarProps) => {
   const itemsList = useMemo(
     () =>
       sidebarItemsList.map((item) => (
-        <SidebarItem key={item.path} item={item} collapsed={collapsed} />
+        <SidebarItem item={item} collapsed={collapsed} key={item.path} />
       )),
     [collapsed, sidebarItemsList]
   );

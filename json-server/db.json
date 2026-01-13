@@ -20,7 +20,12 @@
       "views": 1022,
       "createdAt": "26.02.2025",
       "userId": "1",
-      "type": ["IT", "SCIENCE", "POLITICS", "ECONOMICS"],
+      "type": [
+        "IT",
+        "SCIENCE",
+        "POLITICS",
+        "ECONOMICS"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -89,7 +94,9 @@
       "img": "https://teknotower.com/wp-content/uploads/2020/11/js.png",
       "views": 1022,
       "createdAt": "01.01.2026",
-      "type": ["IT"],
+      "type": [
+        "IT"
+      ],
       "blocks": [
         {
           "id": "1",
@@ -194,6 +201,12 @@
       "userId": "2",
       "text": "hey",
       "id": "5N3UOnb"
+    },
+    {
+      "articleId": "2",
+      "userId": "2",
+      "text": "hey",
+      "id": "bqaenSm"
     }
   ],
   "users": [

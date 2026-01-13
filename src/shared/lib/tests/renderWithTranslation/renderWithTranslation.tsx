@@ -6,5 +6,7 @@ import i18nForTests from 'shared/config/i18n/i18nForTests';
 
 // wrapper for components to add configurations for translations
 export function renderWithTranslation(component: ReactNode) {
-  return render(<I18nextProvider i18n={i18nForTests}>{component}</I18nextProvider>);
+  return render(
+    <I18nextProvider i18n={i18nForTests}>{component}</I18nextProvider>
+  );
 }
