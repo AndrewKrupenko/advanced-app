@@ -26,5 +26,11 @@ export default (env: BuildEnv) => {
     project: 'frontend',
   });
 
+  config.stats = {
+    errorDetails: true,
+    reasons: true,
+    modules: true,
+  };
+
   return config;
 };

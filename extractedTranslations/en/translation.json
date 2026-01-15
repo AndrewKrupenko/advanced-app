@@ -24,11 +24,6 @@
   "Link to the avatar": "Link to the avatar",
   "Log in": "Log in",
   "Log out": "Log out",
-  "Lorem ipsum dolor sit amet, consectetur adipisicing elit": {
-    " Aliquid commodi consequatur eligendi impedit incidunt necessitatibus possimus quis saepe sunt totam": {
-      "": ""
-    }
-  },
   "Main page": "Main page",
   "Name of the user": "Name of the user",
   "No Data": "No Data",
@@ -43,6 +38,7 @@
       }
     }
   },
+  "Recommendations": "Recommendations",
   "Refresh page": "Refresh page",
   "Save": "Save",
   "Science": "Science",
@@ -64,7 +60,7 @@
   "ascending": "ascending",
   "created at": "created at",
   "decrement": "decrement",
-  "descending": ""descending,
+  "descending": "descending",
   "increment": "increment",
   "name": "name",
   "throw error": "throw error",
@@ -96,9 +92,6 @@
   "Попробуйте обновить страницу": "Попробуйте обновить страницу",
   "Произошла непредвиденная ошибка": "",
   "Произошла ошибка при загрузке профиля": "Произошла ошибка при загрузке профиля",
-  "Произошла ошибка при загрузке статьи": {
-    "": ""
-  },
   "Профиль": "Профиль",
   "Редактировать": "Редактировать",
   "Серверная ошибка при сохранении": "Серверная ошибка при сохранении",
@@ -106,13 +99,5 @@
   "Статья не найдена": "Статья не найдена",
   "Страница не найдена": "",
   "Укажите валюту": "Укажите валюту",
-  "Укажите страну": "Укажите страну",
-  "Форма авторизации": "",
-  "Читать далее": {
-    "": {
-      "": {
-        "": ""
-      }
-    }
-  }
+  "Укажите страну": "Укажите страну"
 }
