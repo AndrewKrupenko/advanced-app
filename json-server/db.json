@@ -370,7 +370,7 @@
       "views": 1022,
       "createdAt": "26.02.2025",
       "userId": "1",
-      "type": ["IT", "SCIENCE", "POLITICS", "ECONOMICS"],
+      "type": ["SCIENCE"],
       "blocks": [
         {
           "id": "1",
@@ -720,7 +720,7 @@
       "views": 1022,
       "createdAt": "26.02.2025",
       "userId": "1",
-      "type": ["IT", "SCIENCE", "POLITICS", "ECONOMICS"],
+      "type": ["ECONOMICS"],
       "blocks": [
         {
           "id": "1",
@@ -1070,7 +1070,7 @@
       "views": 1022,
       "createdAt": "26.02.2025",
       "userId": "1",
-      "type": ["IT", "SCIENCE", "POLITICS", "ECONOMICS"],
+      "type": ["IT"],
       "blocks": [
         {
           "id": "1",
